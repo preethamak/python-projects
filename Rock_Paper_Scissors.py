@@ -8,14 +8,10 @@ while True:
         break
     
     random_number = random.randint(0, 2)
-    computer_pick = options[1]
+    computer_pick = options[computer_pick]
     print("computer picked", computer_pick + ".")
     
     if user_input == "rock" and computer_pick == "scissors":
-        print(" You win!")
-        user_wins +=1
-        
-    if user_input == "rock" and computer_pick == "paper":
         print(" You win!")
         user_wins +=1
         
