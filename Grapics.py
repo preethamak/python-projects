@@ -2,8 +2,8 @@ import turtle as r
 import colorsys as sm
 r.tracer(2)
 r.bgcolor("black")
-r.pensize(2)
-n=100
+r.pensize(1.5)
+n=200
 h=0
 
 for i in range(500):
