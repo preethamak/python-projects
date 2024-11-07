@@ -2,7 +2,7 @@ import turtle as r
 import colorsys as sm
 r.tracer(2)
 r.bgcolor("black")
-r.pensize(1.5)
+r.pensize(2)
 n=200
 h=0
 
